@@ -30,6 +30,10 @@ body {
   
 }
 #navbar-brand { 
+    margin-bottom: 0;
+    background-color: black;
+    background-image:url(img/nav_bar%20artwork.png);
+    background-repeat: no-repeat;
     
     
 }
