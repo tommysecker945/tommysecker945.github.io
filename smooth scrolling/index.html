@@ -5,16 +5,31 @@
         <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
         <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
-
-    
     </head>
+    
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        #nav {
+            position: fixed;
+            background-color: white;
+            width: 100%;
+            top: 0;
+            padding: 20px;
+            
+        }
+        #rugby, #cricket, #football {
+            padding: 60px;
+        }
+    </style>
     
     <body>
         
-        <div>
+        <div id="nav">
             <a href="#rugby"> RUGBY</a> 
             <a href="#cricket">CRICKET</a>
-            <a href="#soccer">FOOTBALL </a>
+            <a href="#football">FOOTBALL </a>
         </div>
         
        <a data-fancybox="gallery" href="img/big_1.jpg"> 
