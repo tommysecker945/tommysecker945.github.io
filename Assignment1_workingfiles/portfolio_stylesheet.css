@@ -1,0 +1,192 @@
+@import
+url(https://fonts.googleapis.com/css?family=Fjalla+One);
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
+body {
+    margin: 0;
+}
+#nav {
+    background-color: grey;
+    color:white;
+    font-size: 23px;
+    text-align:center;
+    word-spacing: 2em;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 40px;
+    font-family: 'Abril Fatface', cursive;
+    border-top:3px solid black;
+    border-bottom: 3px solid black;
+    letter-spacing: .4em
+}
+#nav a {
+    color: white;
+    text-decoration: none;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    
+    margin:auto;
+    width: 900px;
+  
+}
+#navbar-brand { 
+    
+    
+}
+#brand-image {
+    width: 300px;
+    max-height: 160px;
+   
+}
+body {
+    background-color: lightgrey;
+}
+#coverimage {
+    
+    text-align: center;
+    background-color: white;
+   
+}
+#coverimage img {
+    max-width: 1080px;
+    margin: 20px;
+    padding: 20px;
+    padding-top: 15px;
+    width: 90%;
+}
+#introtext p {
+    padding-top: 15px;
+    text-align: center;
+    line-height: 1.5em;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px
+}
+   
+form {
+  margin: auto;
+    background-color: lightslategrey;
+  width: 400px;
+  padding: 2em;
+  border: 2.3px solid white;
+  border-radius: 3em;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 20px;
+}
+h1 , p {
+    text-align: center;
+    
+}
+
+form div + div {
+  margin-top: 2em;
+}
+
+label {
+  display: inline-block;
+  width: 90px;
+  text-align: right;
+}
+
+input, textarea {
+  font: 1em sans-serif;
+  width: 300px;
+  box-sizing: border-box;
+  border: 1px solid grey;
+}
+
+input:focus, textarea:focus {
+  border-color: black;
+}
+
+textarea {
+  vertical-align: top;
+  height: 5em;
+}
+
+.button {
+  padding-left: 90px; 
+}
+
+button {
+  margin-left: .5em;
+}
+
+#socialmedia {
+    text-align: center;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    margin:30px;
+    padding: 10px;
+    background-color: grey; 
+    
+}
+#footer {
+    height: 20px;
+    background-color: grey;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+    font-style: italic;
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black
+}
+#about_image {
+     text-align: center;
+    background-color: white;
+}
+#about_image img {
+    max-height: 350px;
+    margin: 15px;
+    border: 3px solid black;
+    border-radius: 15px
+   
+    
+}
+#about-heading {
+    margin-top: 0px;
+    height: 30px;
+    background-color: #aaa7a2;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+    font-style: italic;
+    font-family: 'Raleway', sans-serif;
+}
+#about-heading + p {
+    display: grid;
+    
+}
+#about-heading + p, #about-heading + p + p {
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 10px;
+    text-align:justify;
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.5em;
+    background-color: white;       
+}
+#about-heading + p + p + p {
+     margin-left: 30px;
+    margin-right: 30px;
+    padding: 10px;
+    text-align:center;
+    font-style:italic;
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.5em;
+    background-color: grey;
+    color: white;
+    font-size: 25px
+}
+#socialmedia img {
+    font-size: 40px;  
+    width: 60px;
+    border: 2px black solid;
+    border-radius: 15px;
+}
+#socialmedialinks {
+    text-align: center;
+    
+    
+
